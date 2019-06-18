@@ -3,6 +3,12 @@
     "projects": [
         "<rootDir>/jest/jest.test.config.json",
         "<rootDir>/jest/jest.eslint.config.json",
-        "<rootDir>/jest/jest.stylelint.config.json"
+        "<rootDir>/jest/jest.stylelint.config.json",
+
+        {
+            "displayName": "lint",
+            "runner": "jest-runner-eslint"
+        }
+
     ]
 }
